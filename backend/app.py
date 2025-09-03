@@ -22,7 +22,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:3000",
         "https://*.vercel.app",
-        "https://patient-tracker.vercel.app",  # Replace with your actual Vercel URL
+        "https://anesthetist-tracker.vercel.app",  # Replace with your actual Vercel URL
         "https://*.vscode.dev"
     ],
     allow_credentials=True,
